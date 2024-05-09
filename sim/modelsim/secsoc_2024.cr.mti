@@ -1,0 +1,835 @@
+D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_async.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_async.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_fifo_async
+
+Top level modules:
+	prim_fifo_async
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package prim_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_dec.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_dec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_secded_inv_64_57_dec
+
+Top level modules:
+	prim_secded_inv_64_57_dec
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err_resp.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err_resp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_err_resp
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err_resp.sv(12): (vlog-13314) Defaulting port 'tl_h_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_err_resp
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_flop.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_flop.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_generic_flop
+
+Top level modules:
+	prim_generic_flop
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_filter_ctr.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_filter_ctr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_filter_ctr
+
+Top level modules:
+	prim_filter_ctr
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_counter.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_counter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_counter
+
+Top level modules:
+	ibex_counter
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rv_core_ibex
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv(35): (vlog-13314) Defaulting port 'tl_i_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv(39): (vlog-13314) Defaulting port 'tl_d_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	rv_core_ibex
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_core.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_core.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart_core
+-- Importing package uart_reg_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_core.sv(12): (vlog-13314) Defaulting port 'reg2hw' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	uart_core
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package prim_subreg_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_flop
+
+Top level modules:
+	prim_flop
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_fast.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_fast.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_multdiv_fast
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_multdiv_fast
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb.v {1 {vlog -work work -stats=none D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module soc_top_tb
+
+Top level modules:
+	soc_top_tb
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/top/soc_top.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/top/soc_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module soc_top
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+-- Importing package tl_main_pkg
+
+Top level modules:
+	soc_top
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_arb.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_arb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_subreg_arb
+-- Importing package prim_subreg_pkg
+-- Importing package prim_mubi_pkg
+
+Top level modules:
+	prim_subreg_arb
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_controller.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_controller
+-- Importing package ibex_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_controller.sv(59): (vlog-13314) Defaulting port 'irqs_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	ibex_controller
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_mubi_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_mubi_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package prim_mubi_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package uart_reg_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gpio
+-- Importing package gpio_reg_pkg
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio.sv(18): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	gpio
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_ex_block.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_ex_block.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_ex_block
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_ex_block
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_subreg
+-- Importing package prim_subreg_pkg
+
+Top level modules:
+	prim_subreg
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_fifo_sync
+-- Importing package prim_util_pkg
+
+Top level modules:
+	prim_fifo_sync
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_buf.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_buf.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_generic_buf
+
+Top level modules:
+	prim_generic_buf
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_rsp_intg_gen.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_rsp_intg_gen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_rsp_intg_gen
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_rsp_intg_gen.sv(14): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_rsp_intg_gen
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_core.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_core.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_core
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_core
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_slow.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_slow.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_multdiv_slow
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_multdiv_slow
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package ibex_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_arbiter_ppc
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(79): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(80): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(80): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(81): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(106): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(107): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(107): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(109): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(121): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(122): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(122): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv(124): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	prim_arbiter_ppc
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_ram_1p.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_ram_1p.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_generic_ram_1p
+
+Top level modules:
+	prim_generic_ram_1p
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_enc.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_enc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_secded_inv_64_57_enc
+
+Top level modules:
+	prim_secded_inv_64_57_enc
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module xbar_main
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv(42): (vlog-13314) Defaulting port 'tl_ibexif_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv(44): (vlog-13314) Defaulting port 'tl_ibexlsu_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv(49): (vlog-13314) Defaulting port 'tl_rom_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv(51): (vlog-13314) Defaulting port 'tl_sram_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv(53): (vlog-13314) Defaulting port 'tl_flash_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv(55): (vlog-13314) Defaulting port 'tl_uart0_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv(57): (vlog-13314) Defaulting port 'tl_gpio0_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package tl_main_pkg
+
+Top level modules:
+	xbar_main
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_reg.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_adapter_reg
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_reg.sv(33): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_adapter_reg
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_ram_1p.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_ram_1p.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_ram_1p
+
+Top level modules:
+	prim_ram_1p
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart_reg_top
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv(10): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package uart_reg_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv(14): (vlog-13314) Defaulting port 'hw2reg' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package prim_subreg_pkg
+
+Top level modules:
+	uart_reg_top
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_csr.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_csr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_csr
+
+Top level modules:
+	ibex_csr
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_fifo_sync
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv(19): (vlog-13314) Defaulting port 'tl_h_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv(22): (vlog-13314) Defaulting port 'tl_d_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_fifo_sync
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/xbar/tl_main_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/xbar/tl_main_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package tl_main_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_fifo_async
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv(17): (vlog-13314) Defaulting port 'tl_h_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv(20): (vlog-13314) Defaulting port 'tl_d_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_fifo_async
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync_cnt.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync_cnt.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_fifo_sync_cnt
+-- Importing package prim_util_pkg
+
+Top level modules:
+	prim_fifo_sync_cnt
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_fetch_fifo.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_fetch_fifo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_fetch_fifo
+
+Top level modules:
+	ibex_fetch_fifo
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_branch_predict.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_branch_predict.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_branch_predict
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_branch_predict
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_id_stage.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_id_stage.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_id_stage
+-- Importing package ibex_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_id_stage.sv(104): (vlog-13314) Defaulting port 'irqs_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	ibex_id_stage
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_clock_gating.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_clock_gating.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_generic_clock_gating
+
+Top level modules:
+	prim_generic_clock_gating
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package prim_secded_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_compressed_decoder.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_compressed_decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_compressed_decoder
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_compressed_decoder
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv(11): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package tlul_err_sv_unit
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+-- Compiling module tlul_err
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv(11): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_err
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_cmd_intg_chk.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_cmd_intg_chk.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_cmd_intg_chk
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_cmd_intg_chk.sv(11): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_cmd_intg_chk
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_dec.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_dec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_data_integ_dec
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+
+Top level modules:
+	tlul_data_integ_dec
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_clock_gating.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_clock_gating.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_clock_gating
+-- Importing package prim_pkg
+
+Top level modules:
+	prim_clock_gating
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_decoder.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_decoder
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_decoder
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/sram2tlul.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/sram2tlul.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sram2tlul
+-- Importing package top_pkg
+-- Importing package tlul_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/sram2tlul.sv(20): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	sram2tlul
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_rx.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_rx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_alu.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_alu
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_alu
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_prefetch_buffer.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_prefetch_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_prefetch_buffer
+
+Top level modules:
+	ibex_prefetch_buffer
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_onehot_check.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_onehot_check.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_onehot_check
+
+Top level modules:
+	prim_onehot_check
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_load_store_unit.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_load_store_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_load_store_unit
+
+Top level modules:
+	ibex_load_store_unit
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_tx.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_tx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb_with_updateFW.v {1 {vlog -work work -stats=none D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb_with_updateFW.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module soc_top_tb_with_updateFW
+
+Top level modules:
+	soc_top_tb_with_updateFW
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_cs_registers
+-- Importing package ibex_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(727): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(729): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(736): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(739): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(742): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(767): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(768): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(769): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(771): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(772): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(766): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(766): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(766): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(767): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(768): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(769): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(771): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv(772): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	ibex_cs_registers
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package gpio_reg_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/flash/flash.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/flash/flash.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flash
+
+Top level modules:
+	flash
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_reg_we_check.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_reg_we_check.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_reg_we_check
+-- Importing package prim_util_pkg
+
+Top level modules:
+	prim_reg_we_check
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_dec.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_dec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_secded_inv_39_32_dec
+
+Top level modules:
+	prim_secded_inv_39_32_dec
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_ff.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_ff.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_register_file
+
+Top level modules:
+	ibex_register_file
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/top/top_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/top/top_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package top_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/rom/boot_rom.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/rom/boot_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module boot_rom
+
+Top level modules:
+	boot_rom
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/uart/uart.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/uart/uart.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart
+-- Importing package uart_reg_pkg
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/uart/uart.sv(16): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	uart
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_if_stage.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_if_stage.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_if_stage
+-- Importing package ibex_pkg
+
+Top level modules:
+	ibex_if_stage
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_pmp
+-- Importing package ibex_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv(19): (vlog-13314) Defaulting port 'csr_pmp_cfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv(20): (vlog-13314) Defaulting port 'csr_pmp_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv(22): (vlog-13314) Defaulting port 'priv_mode_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv(24): (vlog-13314) Defaulting port 'pmp_req_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv(25): (vlog-13314) Defaulting port 'pmp_req_type_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	ibex_pmp
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_buf.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_buf.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_buf
+
+Top level modules:
+	prim_buf
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gpio_reg_top
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv(10): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package gpio_reg_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv(14): (vlog-13314) Defaulting port 'hw2reg' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package prim_subreg_pkg
+
+Top level modules:
+	gpio_reg_top
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_enc.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_enc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_data_integ_enc
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+
+Top level modules:
+	tlul_data_integ_enc
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_latch.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_latch.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_register_file
+
+Top level modules:
+	ibex_register_file
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop_2sync.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop_2sync.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_flop_2sync
+
+Top level modules:
+	prim_flop_2sync
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_ext.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_ext.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_subreg_ext
+
+Top level modules:
+	prim_subreg_ext
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_socket_1n
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv(61): (vlog-13314) Defaulting port 'tl_h_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv(64): (vlog-13314) Defaulting port 'tl_d_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_socket_1n
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_fpga.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_fpga.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ibex_register_file
+
+Top level modules:
+	ibex_register_file
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_intr_hw.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_intr_hw.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_intr_hw
+
+Top level modules:
+	prim_intr_hw
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_adapter_sram
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv(43): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package prim_util_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv(420): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv(426): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv(432): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv(433): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv(433): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv(434): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	tlul_adapter_sram
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_util_pkg.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_util_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package prim_util_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_sram_byte
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(23): (vlog-13314) Defaulting port 'tl_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(27): (vlog-13314) Defaulting port 'tl_sram_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package prim_util_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(82): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(83): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(84): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(85): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(86): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(91): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(93): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(102): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(103): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(105): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(107): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(113): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(114): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(117): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(88): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(91): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(93): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(102): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(103): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(105): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(107): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(113): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(114): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(117): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(187): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(187): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(188): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(206): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(207): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(213): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(215): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(225): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(226): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(229): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(230): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(233): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(234): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(235): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(236): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(237): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(238): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(242): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(247): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(248): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(250): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(251): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(286): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(289): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(293): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv(298): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	tlul_sram_byte
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv {2 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tlul_socket_m1
+-- Importing package tlul_pkg
+-- Importing package top_pkg
+-- Importing package prim_mubi_pkg
+-- Importing package prim_secded_pkg
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv(37): (vlog-13314) Defaulting port 'tl_h_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv(41): (vlog-13314) Defaulting port 'tl_d_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	tlul_socket_m1
+
+} {} {}} D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_enc.sv {1 {vlog -work work -sv -stats=none D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_enc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prim_secded_inv_39_32_enc
+
+Top level modules:
+	prim_secded_inv_39_32_enc
+
+} {} {}}

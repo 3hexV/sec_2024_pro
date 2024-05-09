@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "hal_common.h": "c",
+        "hal_type.h": "c",
+        "hal_gpio.h": "c",
+        "sys.h": "c"
+    }
+}

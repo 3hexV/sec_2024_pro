@@ -1,0 +1,64 @@
+`timescale 1ns/1ns
+
+
+module soc_top_tb();
+
+
+reg          tb_clock;
+reg          tb_reset;
+reg          tb_uart_rx;
+wire         tb_uart_tx;
+reg [31:0]   tb_gpio_i;
+wire[31:0]   tb_gpio_o;
+wire[31:0]   tb_gpio_oe;
+
+wire         uart_tx_clk ;
+wire[7:0]    uart_tx_dat ;
+wire         uart_tx_we  ;
+
+initial begin
+    $display("Load BooRom Firmware: boot_rom.vmem");
+    $readmemh("../../sw/boot_rom/build/boot_rom.vmem", soc_top_tb.soc_top_inst.u_boot_rom.mem);
+    $display("Load HelloWorld Firmware: hello_world.vmem");
+    $readmemh("../../sw/hello_world/build/hello_world.vmem", soc_top_tb.soc_top_inst.u_flash_emulator.mem);
+end
+
+
+initial begin
+            tb_clock   = 1'b0;
+            tb_reset   = 1'b0;
+            tb_uart_rx = 1'b0;
+            tb_gpio_i  = 32'd0;
+
+            #1000
+            tb_reset   = 1'b1;
+end
+
+
+always #41.67 tb_clock = ~tb_clock;
+
+
+
+
+soc_top soc_top_inst(
+    .clk_i     ( tb_clock   ),
+    .rstn_i    ( tb_reset   ),
+    .uart_tx_o ( tb_uart_tx ),
+    .uart_rx_i ( tb_uart_rx ),
+    .gpio_i    ( tb_gpio_i  ),
+    .gpio_o    ( tb_gpio_o  ),
+    .gpio_oe   ( tb_gpio_oe )
+);
+
+
+assign uart_tx_clk = soc_top_inst.uart_inst.u_reg.u_wdata.clk_i;
+assign uart_tx_dat = soc_top_inst.uart_inst.u_reg.u_wdata.wd;
+assign uart_tx_we  = soc_top_inst.uart_inst.u_reg.u_wdata.we;
+
+always @ (posedge uart_tx_clk ) begin
+    if(uart_tx_we) $write("%c", uart_tx_dat);
+end
+
+
+
+endmodule

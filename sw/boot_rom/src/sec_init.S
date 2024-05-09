@@ -1,0 +1,19 @@
+  
+    .section .sec_param, "a"
+    .org 0x0
+    .long 0x00000000
+
+    .org 0x4
+    .long 0x00000000
+
+    .org 0x8
+    .long 0x00000000
+
+    .org 0xc
+    .long 0x735f9f5f
+
+    .org 0x10
+    .long 0x224aecf8
+
+    .org 0x14
+    .long 0x3f4

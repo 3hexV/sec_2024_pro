@@ -1,0 +1,87 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000010000000 0x0000000000002000 rw
+flash            0x0000000020000000 0x0000000000008000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                __DYNAMIC = 0x0
+                0x0000000000000800                _heap_size = 0x800
+                0x0000000000001000                _stack_size = 0x1000
+                0x0000000010001800                _stack_start = ((ORIGIN (ram) + _heap_size) + _stack_size)
+                0x0000000020000000                _flash_start = ORIGIN (flash)
+                0x0000000020000000                _flash_header = ORIGIN (flash)
+
+.flash_header   0x0000000020000000        0x4
+                0x0000000020000000        0x4 LONG 0x20000004 main
+
+.text           0x0000000020000004      0x2e2
+ *(.text)
+ .text          0x0000000020000004      0x10e ./build/hello_world.o
+                0x0000000020000004                main
+                0x0000000020000044                print_uint
+                0x00000000200000be                print_str
+ .text          0x0000000020000112      0x1a0 ./build/hal/hal_gpio.o
+                0x0000000020000112                init_gpio_0
+                0x000000002000014e                init_gpio_0_lower_mask_out
+                0x0000000020000194                set_gpio_0_lower_mask_out
+                0x00000000200001d0                reset_gpio_0_lower_mask_out
+                0x0000000020000224                get_gpio_0
+                0x0000000020000252                set_gpio_0
+                0x0000000020000280                reset_gpio_0
+ .text          0x00000000200002b2       0x34 ./build/hal/sys.o
+                0x00000000200002b2                delay_us
+ *(.text.*)
+
+.rodata         0x00000000200002e8      0x10c
+ *(.rodata)
+ .rodata        0x00000000200002e8      0x10c ./build/hello_world.o
+ *(.rodata.*)
+
+.idata          0x00000000200003f4        0x0
+                0x00000000200003f4                _data_init_start = .
+
+.data           0x0000000010000000        0x0 load address 0x00000000200003f4
+                0x0000000010000000                _data_start = .
+ *(.data)
+ .data          0x0000000010000000        0x0 ./build/hello_world.o
+ .data          0x0000000010000000        0x0 ./build/hal/hal_gpio.o
+ .data          0x0000000010000000        0x0 ./build/hal/sys.o
+ *(.data.*)
+ *(.sdata)
+                0x0000000010000000                _data_end = .
+
+.bss            0x0000000010000000        0x0 load address 0x00000000200003f4
+                0x0000000010000000                _bss_start = .
+ *(.bss)
+ .bss           0x0000000010000000        0x0 ./build/hello_world.o
+ .bss           0x0000000010000000        0x0 ./build/hal/hal_gpio.o
+ .bss           0x0000000010000000        0x0 ./build/hal/sys.o
+ *(.bss.*)
+ *(.sbss)
+ *(.sbss.*)
+ *(COMMON)
+                0x0000000010000000                _bss_end = .
+LOAD ./build/hello_world.o
+LOAD ./build/hal/hal_gpio.o
+LOAD ./build/hal/sys.o
+LOAD /tools/riscv/lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a
+OUTPUT(./build/hello_world.elf elf32-littleriscv)
+
+.comment        0x0000000000000000       0x2e
+ .comment       0x0000000000000000       0x2e ./build/hello_world.o
+                                         0x2f (size before relaxing)
+ .comment       0x000000000000002e       0x2f ./build/hal/hal_gpio.o
+ .comment       0x000000000000002e       0x2f ./build/hal/sys.o
+
+.riscv.attributes
+                0x0000000000000000       0x26
+ .riscv.attributes
+                0x0000000000000000       0x26 ./build/hello_world.o
+ .riscv.attributes
+                0x0000000000000026       0x26 ./build/hal/hal_gpio.o
+ .riscv.attributes
+                0x000000000000004c       0x26 ./build/hal/sys.o

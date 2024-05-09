@@ -1,0 +1,2206 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Programs_/modelsim/intelFPGA/20.1/modelsim_ase/win32aloem
+vboot_rom
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1715265934
+!i10b 1
+!s100 U0z0SV`=BZaC5]n:?W80M0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVFSL:egPm8DCab=cK[=M60
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/UCAS_Work/sec_2024_pro/sim/modelsim
+Z5 w1715106158
+8D:/UCAS_Work/sec_2024_pro/hdl/rom/boot_rom.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/rom/boot_rom.sv
+!i122 544
+L0 6 51
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1715265934.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/rom/boot_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/rom/boot_rom.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vflash
+R0
+Z10 !s110 1715265925
+!i10b 1
+!s100 njNFA?h20B<;neJ3mD4Ai0
+R2
+IGO;e8oUOd41P5?Idm[hMZ1
+R3
+S1
+R4
+Z11 w1715106157
+8D:/UCAS_Work/sec_2024_pro/hdl/flash/flash.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/flash/flash.sv
+!i122 495
+L0 6 108
+R6
+r1
+!s85 0
+31
+Z12 !s108 1715265925.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/flash/flash.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/flash/flash.sv|
+!i113 1
+R8
+R9
+vgpio
+R0
+Z13 DXx4 work 12 gpio_reg_pkg 0 22 MZNNNFPCnc_kB>Z[_C[zO0
+Z14 DXx4 work 7 top_pkg 0 22 fd9i54kgKib`XJ>_E`JYl0
+Z15 DXx4 work 13 prim_mubi_pkg 0 22 JA9<=jC^dRLI<:@PJ>1HH1
+Z16 DXx4 work 15 prim_secded_pkg 0 22 n=61G9YHNn=cPLEj1>;BO1
+Z17 DXx4 work 8 tlul_pkg 0 22 2N?=Fh>:7UdGcDE4faW^<0
+Z18 !s110 1715265926
+!i10b 1
+!s100 bCDI[e?0lbOaL41[amcMz3
+R2
+IJaUSBH8F9@mSPKbPh64aa2
+R3
+S1
+R4
+R11
+8D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio.sv
+!i122 496
+L0 7 147
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio.sv|
+!i113 1
+R8
+R9
+Xgpio_reg_pkg
+R0
+Z19 !s110 1715265924
+!i10b 1
+!s100 1]eE?[Ob`mcZChe4>hXEz1
+R2
+IMZNNNFPCnc_kB>Z[_C[zO0
+VMZNNNFPCnc_kB>Z[_C[zO0
+S1
+R4
+R11
+8D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_pkg.sv
+!i122 487
+Z20 L0 7 0
+R6
+r1
+!s85 0
+31
+Z21 !s108 1715265924.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_pkg.sv|
+!i113 1
+R8
+R9
+vgpio_reg_top
+R0
+R14
+R15
+R16
+R17
+R13
+Z22 DXx4 work 15 prim_subreg_pkg 0 22 bE=5@lnTXfn=lo`[>l79F0
+R18
+!i10b 1
+!s100 RKHmk7nTfSf55Zigd3L_L2
+R2
+Im7aJZe=1EI@U`JYK3g38<0
+R3
+S1
+R4
+R11
+8D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv
+!i122 497
+L0 7 789
+R6
+r1
+!s85 0
+31
+Z23 !s108 1715265926.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/gpio/gpio_reg_top.sv|
+!i113 1
+R8
+R9
+vibex_alu
+R0
+Z24 DXx4 work 8 ibex_pkg 0 22 <PVRR>80gzFf6C;zA6Y2j2
+R18
+!i10b 1
+!s100 8HNaCPGKBeUhjMQWYTFm?0
+R2
+IUKHlSBbT0M2:QaS[XQgdM0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_alu.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_alu.sv
+!i122 498
+L0 9 203
+R6
+r1
+!s85 0
+31
+R23
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_alu.sv|
+!i113 1
+R8
+R9
+vibex_branch_predict
+R0
+R24
+R18
+!i10b 1
+!s100 a@`nngAAhS5M]:<;?]@cf2
+R2
+Ib5If?;ll@4E^KC>9h<Go;2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_branch_predict.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_branch_predict.sv
+!i122 499
+L0 20 80
+R6
+r1
+!s85 0
+31
+R23
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_branch_predict.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_branch_predict.sv|
+!i113 1
+R8
+R9
+vibex_compressed_decoder
+R0
+R24
+R18
+!i10b 1
+!s100 FY3EN0]3lMFM5l1[6fFUJ2
+R2
+I:mEgZgH6no_El6VGlNc:c1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_compressed_decoder.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_compressed_decoder.sv
+!i122 500
+L0 15 270
+R6
+r1
+!s85 0
+31
+R23
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_compressed_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_compressed_decoder.sv|
+!i113 1
+R8
+R9
+vibex_controller
+R0
+R24
+R18
+!i10b 1
+!s100 VMZ?`DGYeY4a6K;VC>fT<2
+R2
+Ihb?Y84Q:G947RK0PSF8cI1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_controller.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_controller.sv
+!i122 501
+L0 11 649
+R6
+r1
+!s85 0
+31
+R23
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_controller.sv|
+!i113 1
+R8
+R9
+vibex_core
+R0
+R24
+Z25 !s110 1715265927
+!i10b 1
+!s100 G^ZP5D=?K0@95G^l2a2O90
+R2
+I=9@Z2>mlAV^fGklkfNc8P3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_core.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_core.sv
+!i122 502
+L0 13 885
+R6
+r1
+!s85 0
+31
+R23
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_core.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_core.sv|
+!i113 1
+R8
+R9
+vibex_counter
+R0
+R25
+!i10b 1
+!s100 o5OC]a;JUH@@ViBcRNXDO2
+R2
+IKRcNEVlWhEW@MA0;3@:OP1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_counter.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_counter.sv
+!i122 503
+L0 1 96
+R6
+r1
+!s85 0
+31
+Z26 !s108 1715265927.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_counter.sv|
+!i113 1
+R8
+R9
+vibex_cs_registers
+R0
+R24
+R25
+!i10b 1
+!s100 N2fnO:QFjC@:]S@lWl_L:1
+R2
+IW;flEYOBmLzl859Ve0Uhl3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv
+!i122 504
+L0 14 1004
+R6
+r1
+!s85 0
+31
+R26
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_cs_registers.sv|
+!i113 1
+R8
+R9
+vibex_csr
+R0
+R25
+!i10b 1
+!s100 W=gCULmO3jO_66@7mPFFc0
+R2
+I7M^ifhX6fjTgGbR`=C^oo0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_csr.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_csr.sv
+!i122 505
+L0 10 46
+R6
+r1
+!s85 0
+31
+R26
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_csr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_csr.sv|
+!i113 1
+R8
+R9
+vibex_decoder
+R0
+R24
+R25
+!i10b 1
+!s100 SMDEPEHFQciV3<M=z^JFE2
+R2
+I6AZAd;;b^HQK?bFS5@Wmi1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_decoder.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_decoder.sv
+!i122 506
+L0 19 787
+R6
+r1
+!s85 0
+31
+R26
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_decoder.sv|
+!i113 1
+R8
+R9
+vibex_ex_block
+R0
+R24
+Z27 !s110 1715265928
+!i10b 1
+!s100 DE_7HVEIGl4el]A[Q?5K_0
+R2
+Ic:JlIOd:57efFJ5aO]A101
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_ex_block.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_ex_block.sv
+!i122 507
+L0 11 146
+R6
+r1
+!s85 0
+31
+R26
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_ex_block.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_ex_block.sv|
+!i113 1
+R8
+R9
+vibex_fetch_fifo
+R0
+R27
+!i10b 1
+!s100 5f46@O^9O^:V7E>DWlCNL3
+R2
+IdUfo>gfF=[9QC`CD@R^zQ0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_fetch_fifo.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_fetch_fifo.sv
+!i122 508
+L0 14 222
+R6
+r1
+!s85 0
+31
+Z28 !s108 1715265928.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_fetch_fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_fetch_fifo.sv|
+!i113 1
+R8
+R9
+vibex_id_stage
+R0
+R24
+R27
+!i10b 1
+!s100 ;7MB@UEz2:_QA?HCPU60:0
+R2
+IfA6>NgGbT]OeA6^]l?<dk3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_id_stage.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_id_stage.sv
+!i122 509
+L0 18 631
+R6
+r1
+!s85 0
+31
+R28
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_id_stage.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_id_stage.sv|
+!i113 1
+R8
+R9
+vibex_if_stage
+R0
+R24
+R27
+!i10b 1
+!s100 ^VXXZRifKUQP_lnSUil[V3
+R2
+I;glA>93`0:omNKfJ_goX`0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_if_stage.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_if_stage.sv
+!i122 510
+L0 14 252
+R6
+r1
+!s85 0
+31
+R28
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_if_stage.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_if_stage.sv|
+!i113 1
+R8
+R9
+vibex_load_store_unit
+R0
+R27
+!i10b 1
+!s100 HX@YVE<GImTKzl_nk[dSg3
+R2
+IRLBMH5ERNbQ7I6RW9:R]V2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_load_store_unit.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_load_store_unit.sv
+!i122 511
+L0 14 474
+R6
+r1
+!s85 0
+31
+R28
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_load_store_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_load_store_unit.sv|
+!i113 1
+R8
+R9
+vibex_multdiv_fast
+R0
+R24
+R27
+!i10b 1
+!s100 1lM_DKV?6=caBNj]o[RHJ3
+R2
+I6Heo1D1bRAonekC7KiRgd0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_fast.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_fast.sv
+!i122 512
+L0 16 315
+R6
+r1
+!s85 0
+31
+R28
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_fast.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_fast.sv|
+!i113 1
+R8
+R9
+vibex_multdiv_slow
+R0
+R24
+Z29 !s110 1715265929
+!i10b 1
+!s100 j;IQoae8;@bQQbaHi[SQ:1
+R2
+IL34?DA68N@@@N;oKcD@hU3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_slow.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_slow.sv
+!i122 513
+L0 13 278
+R6
+r1
+!s85 0
+31
+R28
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_slow.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_multdiv_slow.sv|
+!i113 1
+R8
+R9
+Xibex_pkg
+R0
+R19
+!i10b 1
+!s100 7^QMJYOijmb8AFF2lf6We1
+R2
+I<PVRR>80gzFf6C;zA6Y2j2
+V<PVRR>80gzFf6C;zA6Y2j2
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pkg.sv
+!i122 486
+Z30 L0 9 0
+R6
+r1
+!s85 0
+31
+R21
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pkg.sv|
+!i113 1
+R8
+R9
+vibex_pmp
+R0
+R24
+R29
+!i10b 1
+!s100 akCm3ao;LDaBae@l1X7n^2
+R2
+IAML<jYC_B8ol_hjB`YU^n2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv
+!i122 514
+L0 5 98
+R6
+r1
+!s85 0
+31
+Z31 !s108 1715265929.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_pmp.sv|
+!i113 1
+R8
+R9
+vibex_prefetch_buffer
+R0
+R29
+!i10b 1
+!s100 [m6Bm]j7BXVKz]MH6f?^G0
+R2
+I3U7N1U:c[V>[R2RY8@jj:1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_prefetch_buffer.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_prefetch_buffer.sv
+!i122 515
+L0 12 240
+R6
+r1
+!s85 0
+31
+R31
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_prefetch_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_prefetch_buffer.sv|
+!i113 1
+R8
+R9
+vibex_register_file
+R0
+R29
+!i10b 1
+!s100 >92M`9cHh9FFEN_;Mgz<k3
+R2
+Ij^h4lV^lj3IhFG:K4Lbd^0
+R3
+S1
+R4
+w1715077867
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_latch.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_latch.sv
+!i122 518
+L0 14 114
+R6
+r1
+!s85 0
+31
+R31
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_latch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/ibex_register_file_latch.sv|
+!i113 1
+R8
+R9
+vprim_arbiter_ppc
+R0
+Z32 !s110 1715265930
+!i10b 1
+!s100 @MPE^FCkS`6NnDDAAVlT80
+R2
+Icn19dEm4]NBfe2ZUi9h^52
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv
+!i122 520
+L0 25 106
+R6
+r1
+!s85 0
+31
+Z33 !s108 1715265930.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_arbiter_ppc.sv|
+!i113 1
+R8
+R9
+vprim_buf
+R0
+R32
+!i10b 1
+!s100 Z[7TZdzfGK[M><e7`T=4U0
+R2
+IkH30>:[g;0A]mZl7PkQR12
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_buf.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_buf.sv
+!i122 521
+L0 11 14
+R6
+r1
+!s85 0
+31
+R33
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_buf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_buf.sv|
+!i113 1
+R8
+R9
+vprim_clock_gating
+R0
+DXx4 work 8 prim_pkg 0 22 Z@bL=k>H<HEgQeEe8JHh>3
+R32
+!i10b 1
+!s100 Y[]z`UC:kYTd2TRA6:7j=0
+R2
+ICj4`?XK<Yi?i0PK`c=T?53
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_clock_gating.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_clock_gating.sv
+!i122 522
+L0 12 30
+R6
+r1
+!s85 0
+31
+R33
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_clock_gating.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_clock_gating.sv|
+!i113 1
+R8
+R9
+vprim_fifo_async
+R0
+R32
+!i10b 1
+!s100 RAM5UYWd8:]G5Sic0l?^61
+R2
+IWCM5]2]oaeRZmjd;<CTXP0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_async.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_async.sv
+!i122 523
+L0 7 281
+R6
+r1
+!s85 0
+31
+R33
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_async.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_async.sv|
+!i113 1
+R8
+R9
+vprim_fifo_sync
+R0
+Z34 DXx4 work 13 prim_util_pkg 0 22 =ijI_V3m9@CSC9^GjHljD0
+Z35 !s110 1715265931
+!i10b 1
+!s100 0Hg3f?:a<cnLO>9@N^lnG1
+R2
+IN4d=mTZQ1=oG_^4C>1[_92
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync.sv
+!i122 524
+L0 7 135
+R6
+r1
+!s85 0
+31
+R33
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync.sv|
+!i113 1
+R8
+R9
+vprim_fifo_sync_cnt
+R0
+R34
+R35
+!i10b 1
+!s100 jUS`BT=;5R1c6>KkT_a@B0
+R2
+Id?T[]Y`Z^kceAWP[=<X`P2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync_cnt.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync_cnt.sv
+!i122 525
+L0 7 131
+R6
+r1
+!s85 0
+31
+Z36 !s108 1715265931.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync_cnt.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_fifo_sync_cnt.sv|
+!i113 1
+R8
+R9
+vprim_filter_ctr
+R0
+R35
+!i10b 1
+!s100 Z@ZWkAHaiX`c:S3Gg:UP60
+R2
+I`D?f7zmj@QVXb2GN0ldMM0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_filter_ctr.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_filter_ctr.sv
+!i122 526
+L0 15 67
+R6
+r1
+!s85 0
+31
+R36
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_filter_ctr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_filter_ctr.sv|
+!i113 1
+R8
+R9
+vprim_flop
+R0
+R35
+!i10b 1
+!s100 nUN0@:nKCST82`FdDldSk0
+R2
+IN_HO50E>zPkR6d9Y5N0h;0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop.sv
+!i122 527
+L0 11 20
+R6
+r1
+!s85 0
+31
+R36
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop.sv|
+!i113 1
+R8
+R9
+vprim_flop_2sync
+R0
+R35
+!i10b 1
+!s100 @f`2V0@WYR;P=Zm:0>=JI2
+R2
+IH9K5CO@H4?nEDCO_;]jRV2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop_2sync.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop_2sync.sv
+!i122 528
+L0 9 53
+R6
+r1
+!s85 0
+31
+R36
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop_2sync.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_flop_2sync.sv|
+!i113 1
+R8
+R9
+vprim_generic_buf
+R0
+Z37 !s110 1715265932
+!i10b 1
+!s100 kPTDj7KDjIbIY7Z[]G1^m0
+R2
+I[]nSLDhkaeIze<kW7OV=E1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_buf.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_buf.sv
+!i122 529
+L0 5 12
+R6
+r1
+!s85 0
+31
+R36
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_buf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_buf.sv|
+!i113 1
+R8
+R9
+vprim_generic_clock_gating
+R0
+R37
+!i10b 1
+!s100 SN]m>bCWlL3?i:^1fg3em1
+R2
+I]iO4SEV0bTcd8fZNBK`lM1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_clock_gating.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_clock_gating.sv
+!i122 530
+L0 7 17
+R6
+r1
+!s85 0
+31
+Z38 !s108 1715265932.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_clock_gating.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_clock_gating.sv|
+!i113 1
+R8
+R9
+vprim_generic_flop
+R0
+R37
+!i10b 1
+!s100 ETzPmb<EIgj[?gEY`bD0g2
+R2
+IEiHQoiVHAYRNP17V66<EN3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_flop.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_flop.sv
+!i122 531
+L0 5 19
+R6
+r1
+!s85 0
+31
+R38
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_flop.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_flop.sv|
+!i113 1
+R8
+R9
+vprim_generic_ram_1p
+R0
+R37
+!i10b 1
+!s100 KDK53YYQ_hZn_8zlH4VVn0
+R2
+I=DVXIQ8VW_[amO=8PS<=72
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_ram_1p.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_ram_1p.sv
+!i122 532
+L0 8 88
+R6
+r1
+!s85 0
+31
+R38
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_ram_1p.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_generic_ram_1p.sv|
+!i113 1
+R8
+R9
+vprim_intr_hw
+R0
+R37
+!i10b 1
+!s100 Ch[e4cYQHC_>3ioFbK?g21
+R2
+IE>go=WO<DRMBlQ<ZV886]1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_intr_hw.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_intr_hw.sv
+!i122 533
+L0 17 94
+R6
+r1
+!s85 0
+31
+R38
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_intr_hw.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_intr_hw.sv|
+!i113 1
+R8
+R9
+Xprim_mubi_pkg
+R0
+R10
+!i10b 1
+!s100 mj]DM8>j837=:K=CnB`7X0
+R2
+IJA9<=jC^dRLI<:@PJ>1HH1
+VJA9<=jC^dRLI<:@PJ>1HH1
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_mubi_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_mubi_pkg.sv
+!i122 492
+L0 13 0
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_mubi_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_mubi_pkg.sv|
+!i113 1
+R8
+R9
+vprim_onehot_check
+R0
+R37
+!i10b 1
+!s100 i^Ec:DRKMlEem^l;N@@2[3
+R2
+IIk_44=iZHDQ:Fz^bhbY8N1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_onehot_check.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_onehot_check.sv
+!i122 534
+L0 19 123
+R6
+r1
+!s85 0
+31
+R38
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_onehot_check.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_onehot_check.sv|
+!i113 1
+R8
+R9
+Xprim_pkg
+R0
+R19
+!i10b 1
+!s100 Y@7kjDSZ<[bUSYU9=nQ?z0
+R2
+IZ@bL=k>H<HEgQeEe8JHh>3
+VZ@bL=k>H<HEgQeEe8JHh>3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_pkg.sv
+!i122 488
+R20
+R6
+r1
+!s85 0
+31
+R21
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_pkg.sv|
+!i113 1
+R8
+R9
+vprim_ram_1p
+R0
+Z39 !s110 1715265933
+!i10b 1
+!s100 5F;Pi7Aje`Rloa>3=PgDA1
+R2
+ImeR8SclMhNz[g>oSI6?J71
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_ram_1p.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_ram_1p.sv
+!i122 535
+L0 9 49
+R6
+r1
+!s85 0
+31
+R38
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_ram_1p.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_ram_1p.sv|
+!i113 1
+R8
+R9
+vprim_reg_we_check
+R0
+R34
+R39
+!i10b 1
+!s100 Ed_AFTg3Mh==lSNko8Y@51
+R2
+IUD=5XSjBTLBImJ1V0g@582
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_reg_we_check.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_reg_we_check.sv
+!i122 536
+L0 8 45
+R6
+r1
+!s85 0
+31
+Z40 !s108 1715265933.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_reg_we_check.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_reg_we_check.sv|
+!i113 1
+R8
+R9
+vprim_secded_inv_39_32_dec
+R0
+R39
+!i10b 1
+!s100 gPi>;jPb0NfaTeGZBZY4Z3
+R2
+IefoQAo4]TzjgNhcd[P[2=2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_dec.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_dec.sv
+!i122 537
+L0 7 56
+R6
+r1
+!s85 0
+31
+R40
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_dec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_dec.sv|
+!i113 1
+R8
+R9
+vprim_secded_inv_39_32_enc
+R0
+R39
+!i10b 1
+!s100 ::ce;<Q9i9Sh4BgcNQ^B_1
+R2
+I6O5[Q7:`Ue:82[mGn>=8^0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_enc.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_enc.sv
+!i122 538
+Z41 L0 7 18
+R6
+r1
+!s85 0
+31
+R40
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_enc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_39_32_enc.sv|
+!i113 1
+R8
+R9
+vprim_secded_inv_64_57_dec
+R0
+R39
+!i10b 1
+!s100 SWlD`JNTQXHAK5Rb[1gF`2
+R2
+IozFj15Ohhg4@mN5X0SO4g2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_dec.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_dec.sv
+!i122 539
+L0 7 81
+R6
+r1
+!s85 0
+31
+R40
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_dec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_dec.sv|
+!i113 1
+R8
+R9
+vprim_secded_inv_64_57_enc
+R0
+R39
+!i10b 1
+!s100 FNERCj^2YLSXWQnMS2_[n1
+R2
+I_L1XlCTH]J1EDzFlHc2nJ0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_enc.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_enc.sv
+!i122 540
+R41
+R6
+r1
+!s85 0
+31
+R40
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_enc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_inv_64_57_enc.sv|
+!i113 1
+R8
+R9
+Xprim_secded_pkg
+R0
+R19
+!i10b 1
+!s100 m20B4ADTPi<oSDCG4TCd_0
+R2
+In=61G9YHNn=cPLEj1>;BO1
+Vn=61G9YHNn=cPLEj1>;BO1
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_pkg.sv
+!i122 489
+L0 8 0
+R6
+r1
+!s85 0
+31
+R21
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_secded_pkg.sv|
+!i113 1
+R8
+R9
+vprim_subreg
+R0
+R22
+R1
+!i10b 1
+!s100 @clz2PO@af]Kh]BYUhzNJ2
+R2
+I=44]2[H0:PQ[9XDD0f4zT3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg.sv
+!i122 541
+L0 7 69
+R6
+r1
+!s85 0
+31
+R40
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg.sv|
+!i113 1
+R8
+R9
+vprim_subreg_arb
+R0
+R22
+R15
+R1
+!i10b 1
+!s100 5PI0j:2<U9L<P`;MIV3BN1
+R2
+IKoX:JWMn>n@d:hKfEe=ne3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_arb.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_arb.sv
+!i122 542
+L0 7 181
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_arb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_arb.sv|
+!i113 1
+R8
+R9
+vprim_subreg_ext
+R0
+R1
+!i10b 1
+!s100 RkDh=P6j3j^F?M=2GkR=>1
+R2
+IGPG]=:?i0Sg>DV0`FZOO91
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_ext.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_ext.sv
+!i122 543
+L0 7 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_ext.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_ext.sv|
+!i113 1
+R8
+R9
+Xprim_subreg_pkg
+R0
+R19
+!i10b 1
+!s100 WLS8_8_fX?D8f44H7J=>e3
+R2
+IbE=5@lnTXfn=lo`[>l79F0
+VbE=5@lnTXfn=lo`[>l79F0
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_pkg.sv
+!i122 490
+Z42 L0 5 0
+R6
+r1
+!s85 0
+31
+R21
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_subreg_pkg.sv|
+!i113 1
+R8
+R9
+Xprim_util_pkg
+R0
+R10
+!i10b 1
+!s100 Dad5=@mm@T@;Wz>XJ^`VV0
+R2
+I=ijI_V3m9@CSC9^GjHljD0
+V=ijI_V3m9@CSC9^GjHljD0
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_util_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/prim/prim_util_pkg.sv
+!i122 491
+R30
+R6
+r1
+!s85 0
+31
+R21
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_util_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/prim/prim_util_pkg.sv|
+!i113 1
+R8
+R9
+vrv_core_ibex
+R0
+R14
+R15
+R16
+R17
+R32
+!i10b 1
+!s100 VcU5nz1Q<nLUGX2OWOSJk0
+R2
+ID<?oTZI6N[9ogm;0[7kQD2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv
+!i122 519
+L0 11 301
+R6
+r1
+!s85 0
+31
+R33
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/ibex/rv_core_ibex.sv|
+!i113 1
+R8
+R9
+vsoc_top
+R0
+R14
+R15
+R16
+R17
+Z43 DXx4 work 11 tl_main_pkg 0 22 U_06P]bXDo_zV:m_lk[802
+Z44 !s110 1715265937
+!i10b 1
+!s100 CnIRC^4`hN9XzAEaD`Le<2
+R2
+Im@h]6JVno4<L4a[[CH`T13
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/top/soc_top.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/top/soc_top.sv
+!i122 559
+L0 1 311
+R6
+r1
+!s85 0
+31
+Z45 !s108 1715265937.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/top/soc_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/top/soc_top.sv|
+!i113 1
+R8
+R9
+vsoc_top_tb
+!s110 1715266933
+!i10b 1
+!s100 ]KFBkn@_1=:NYiZ1ie>Om2
+R2
+IAUJVSz984oF5gR0oKnW0N2
+R3
+R4
+w1715266931
+8D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb.v
+FD:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb.v
+!i122 567
+L0 4 61
+R6
+r1
+!s85 0
+31
+!s108 1715266933.000000
+!s107 D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb.v|
+!i113 1
+Z46 o-work work
+R9
+vsoc_top_tb_with_updateFW
+!s110 1715269524
+!i10b 1
+!s100 gVN7L[H=6OE7aZZAW6NbV1
+R2
+Iz?eoJG^C<[:0K9el6N[aP0
+R3
+R4
+w1715264969
+8D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb_with_updateFW.v
+FD:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb_with_updateFW.v
+!i122 568
+L0 3 65
+R6
+r1
+!s85 0
+31
+!s108 1715269524.000000
+!s107 D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb_with_updateFW.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UCAS_Work/sec_2024_pro/sim/testbench/soc_top_tb_with_updateFW.v|
+!i113 1
+R46
+R9
+nsoc_top_tb_with_update@f@w
+vsram2tlul
+R0
+R14
+R15
+R16
+R17
+R1
+!i10b 1
+!s100 4Dc4;d6P?O2HQ7BPl21eZ3
+R2
+IO<]@dW;SfIGn;KS3XhJMJ1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/sram2tlul.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/sram2tlul.sv
+!i122 545
+L0 11 47
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/sram2tlul.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/sram2tlul.sv|
+!i113 1
+R8
+R9
+Xtl_main_pkg
+R0
+R10
+!i10b 1
+!s100 hMHDoMBhHOGD`<g5Snd190
+R2
+IU_06P]bXDo_zV:m_lk[802
+VU_06P]bXDo_zV:m_lk[802
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/xbar/tl_main_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/xbar/tl_main_pkg.sv
+!i122 494
+R20
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/xbar/tl_main_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/xbar/tl_main_pkg.sv|
+!i113 1
+R8
+R9
+vtlul_adapter_reg
+R0
+R14
+R15
+R16
+R17
+Z47 !s110 1715265935
+!i10b 1
+!s100 ha2?>19AFm`PimlF1_HAk1
+R2
+ISKZ=eDl;bn>NTWcnIN7@_2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_reg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_reg.sv
+!i122 546
+L0 17 218
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_reg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_reg.sv|
+!i113 1
+R8
+R9
+vtlul_adapter_sram
+R0
+R14
+R15
+R16
+R17
+R34
+R47
+!i10b 1
+!s100 `cTaF]gbYH];?]nfe;]TD0
+R2
+I5]@;5^B`3><m]?m`<A7=f0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv
+!i122 547
+L0 18 514
+R6
+r1
+!s85 0
+31
+Z48 !s108 1715265935.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_adapter_sram.sv|
+!i113 1
+R8
+R9
+vtlul_cmd_intg_chk
+R0
+R14
+R15
+R16
+R17
+R47
+!i10b 1
+!s100 ^_hY5V5SG:@nV:k4SOF?A3
+R2
+IV4SZ27W`1ng9oL6WkYePZ1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_cmd_intg_chk.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_cmd_intg_chk.sv
+!i122 548
+L0 9 41
+R6
+r1
+!s85 0
+31
+R48
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_cmd_intg_chk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_cmd_intg_chk.sv|
+!i113 1
+R8
+R9
+vtlul_data_integ_dec
+R0
+R14
+R15
+R16
+R17
+R47
+!i10b 1
+!s100 6izg]O`5j4KOkMkTUXGDT0
+R2
+IHUM6kH>cSm?aN:4ZP[WD<3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_dec.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_dec.sv
+!i122 549
+L0 9 17
+R6
+r1
+!s85 0
+31
+R48
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_dec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_dec.sv|
+!i113 1
+R8
+R9
+vtlul_data_integ_enc
+R0
+R14
+R15
+R16
+R17
+R47
+!i10b 1
+!s100 U0OJblcb_kKFm>nFeKB;o1
+R2
+IinZFVm<><:gZ57ObVbb<I2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_enc.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_enc.sv
+!i122 550
+L0 9 12
+R6
+r1
+!s85 0
+31
+R48
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_enc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_data_integ_enc.sv|
+!i113 1
+R8
+R9
+vtlul_err
+R0
+R14
+R15
+R16
+R17
+DXx4 work 16 tlul_err_sv_unit 0 22 ac[HGCbI1n^Q@z4LFA;<a3
+Z49 !s110 1715265936
+R3
+r1
+!s85 0
+!i10b 1
+!s100 `IZIkP=6k;=]bX?RaKG6R1
+IR:PXczUc>kSRXXOk;PjF73
+!s105 tlul_err_sv_unit
+S1
+R4
+R5
+Z50 8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv
+Z51 FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv
+!i122 551
+L0 7 86
+R6
+31
+R48
+Z52 !s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv|
+Z53 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err.sv|
+!i113 1
+R8
+R9
+vtlul_err_resp
+R0
+R14
+R15
+R16
+R17
+R49
+!i10b 1
+!s100 <A`^nL=JX@TS__DE7Z:9S2
+R2
+I?=D::I@`l5fRR82T[Ga192
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err_resp.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err_resp.sv
+!i122 552
+L0 9 69
+R6
+r1
+!s85 0
+31
+Z54 !s108 1715265936.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err_resp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_err_resp.sv|
+!i113 1
+R8
+R9
+Xtlul_err_sv_unit
+R0
+R14
+R15
+R16
+R17
+R49
+Vac[HGCbI1n^Q@z4LFA;<a3
+r1
+!s85 0
+!i10b 1
+!s100 F]^a6o4P7DhBP8ik=j9g02
+Iac[HGCbI1n^Q@z4LFA;<a3
+!i103 1
+S1
+R4
+R5
+R50
+R51
+!i122 551
+R42
+R6
+31
+R48
+R52
+R53
+!i113 1
+R8
+R9
+vtlul_fifo_async
+R0
+R14
+R15
+R16
+R17
+R49
+!i10b 1
+!s100 ]IJkDK1JGAF9HZ9Hg^[Nl0
+R2
+IaTIASG>iAZK`QbzjRe:h<3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv
+!i122 553
+L0 9 88
+R6
+r1
+!s85 0
+31
+R54
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_async.sv|
+!i113 1
+R8
+R9
+vtlul_fifo_sync
+R0
+R14
+R15
+R16
+R17
+R49
+!i10b 1
+!s100 7B3V1UYj?^`ZGd8MW^L2h2
+R2
+Ie=zln3mzZEa7VQScM8C1C2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv
+!i122 554
+L0 9 89
+R6
+r1
+!s85 0
+31
+R54
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_fifo_sync.sv|
+!i113 1
+R8
+R9
+Xtlul_pkg
+R0
+R14
+R15
+R16
+Z55 !s110 1715265923
+!i10b 1
+!s100 <AdWk45;`5BlR?Q<[i0P[1
+R2
+I2N?=Fh>:7UdGcDE4faW^<0
+V2N?=Fh>:7UdGcDE4faW^<0
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_pkg.sv
+!i122 485
+Z56 L0 6 0
+R6
+r1
+!s85 0
+31
+Z57 !s108 1715265923.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_pkg.sv|
+!i113 1
+R8
+R9
+vtlul_rsp_intg_gen
+R0
+R14
+R15
+R16
+R17
+R49
+!i10b 1
+!s100 R?ffI1Nz^R4n@VfDIBjo^0
+R2
+Id:<jJ7BTMdl?RF<j<=aB33
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_rsp_intg_gen.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_rsp_intg_gen.sv
+!i122 555
+L0 9 45
+R6
+r1
+!s85 0
+31
+R54
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_rsp_intg_gen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_rsp_intg_gen.sv|
+!i113 1
+R8
+R9
+vtlul_socket_1n
+R0
+R14
+R15
+R16
+R17
+R44
+!i10b 1
+!s100 WML4SD8MD:UFS:Q[ML>_m1
+R2
+I<]iT:MYNA7fA7KFV^7>]20
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv
+!i122 556
+L0 42 208
+R6
+r1
+!s85 0
+31
+R45
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_1n.sv|
+!i113 1
+R8
+R9
+vtlul_socket_m1
+R0
+R14
+R15
+R16
+R17
+R44
+!i10b 1
+!s100 <<LTQ5iInoRj;M8@:4V_W2
+R2
+Ic;k:<H_R6[]ie;1K45AAY3
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv
+!i122 557
+L0 23 227
+R6
+r1
+!s85 0
+31
+R45
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_socket_m1.sv|
+!i113 1
+R8
+R9
+vtlul_sram_byte
+R0
+R14
+R15
+R16
+R17
+R34
+R44
+!i10b 1
+!s100 d0fQH_JGaeFAD23nH[b7W2
+R2
+I_b^Q@1YLlnfYDZZ8URTHk0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv
+!i122 558
+L0 16 298
+R6
+r1
+!s85 0
+31
+R45
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/tlul/tlul_sram_byte.sv|
+!i113 1
+R8
+R9
+Xtop_pkg
+R0
+R55
+!i10b 1
+!s100 KUAkF5:J3YaEBgM=;WNan2
+R2
+Ifd9i54kgKib`XJ>_E`JYl0
+Vfd9i54kgKib`XJ>_E`JYl0
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/top/top_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/top/top_pkg.sv
+!i122 484
+R56
+R6
+r1
+!s85 0
+31
+R57
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/top/top_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/top/top_pkg.sv|
+!i113 1
+R8
+R9
+vuart
+R0
+Z58 DXx4 work 12 uart_reg_pkg 0 22 2SBLd7E^dPicX99X3goFN1
+R14
+R15
+R16
+R17
+Z59 !s110 1715265938
+!i10b 1
+!s100 mbUSKbO9OD4eJJZHBRIM]0
+R2
+IXAG;V7=IBK:fkg@cJP7mc2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/uart/uart.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/uart/uart.sv
+!i122 560
+L0 7 65
+R6
+r1
+!s85 0
+31
+R45
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/uart/uart.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/uart/uart.sv|
+!i113 1
+R8
+R9
+vuart_core
+R0
+R58
+R59
+!i10b 1
+!s100 XY@M<;]dd@ocTn2G3G5Ol3
+R2
+IfDi<>B`34HnYPhXi`biE62
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_core.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/uart/uart_core.sv
+!i122 561
+L0 8 496
+R6
+r1
+!s85 0
+31
+Z60 !s108 1715265938.000000
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_core.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_core.sv|
+!i113 1
+R8
+R9
+Xuart_reg_pkg
+R0
+R10
+!i10b 1
+!s100 =Z>h^[n@Rc;7ikdRI^HC32
+R2
+I2SBLd7E^dPicX99X3goFN1
+V2SBLd7E^dPicX99X3goFN1
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_pkg.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_pkg.sv
+!i122 493
+R20
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_pkg.sv|
+!i113 1
+R8
+R9
+vuart_reg_top
+R0
+R14
+R15
+R16
+R17
+R58
+R22
+R59
+!i10b 1
+!s100 KA143OYXzUb3achLAkL>o2
+R2
+IYc90B]kW:EH2mKaG10;[a0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv
+!i122 562
+L0 7 1753
+R6
+r1
+!s85 0
+31
+R60
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_reg_top.sv|
+!i113 1
+R8
+R9
+vuart_rx
+R0
+R59
+!i10b 1
+!s100 UUn=Cd[@YJ^>^YAS3[VZk3
+R2
+ISIj9ShB1KE6edahPf^1[V2
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_rx.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/uart/uart_rx.sv
+!i122 563
+L0 8 98
+R6
+r1
+!s85 0
+31
+R60
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_rx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_rx.sv|
+!i113 1
+R8
+R9
+vuart_tx
+R0
+R59
+!i10b 1
+!s100 mGhzHjg=:`FhS;f1P2nED1
+R2
+ICR4hPN7jBm9Z:^PWVeMaQ1
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_tx.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/uart/uart_tx.sv
+!i122 564
+L0 8 72
+R6
+r1
+!s85 0
+31
+R60
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_tx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/uart/uart_tx.sv|
+!i113 1
+R8
+R9
+vxbar_main
+R0
+R14
+R15
+R16
+R17
+R43
+!s110 1715265939
+!i10b 1
+!s100 PmD]^oh2E[C@QioLIK<O43
+R2
+IJn4fVVVC[b1H2Y_8N3VlK0
+R3
+S1
+R4
+R5
+8D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv
+FD:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv
+!i122 565
+L0 31 302
+R6
+r1
+!s85 0
+31
+R60
+!s107 D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UCAS_Work/sec_2024_pro/hdl/xbar/xbar_main.sv|
+!i113 1
+R8
+R9

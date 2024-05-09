@@ -1,0 +1,17 @@
+# 正式版本，没有修改的
+# print_str("[init] gpio ok\r");
+- param_local(XOR): 0x224aecf8
+- param_detail(CRC32): 0x735f9f5f
+
+# 修改的，通过XOR可以检测的
+# print_str("[init] gpio ok >\r");
+- param_local(XOR): 0x224ab9b7
+- param_detail(CRC32): 0xd5496fda
+
+# 修改的，通过CRC32可以检测的
+print_str(">init] gpio ok\r");
+- param_local(XOR): 0x224aecf8
+- param_detail(CRC32): 0x3047cfce
+
+
+
